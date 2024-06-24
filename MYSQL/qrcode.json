@@ -1,0 +1,109 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"qrcode"},
+{"type":"table","name":"failed_jobs","database":"qrcode","data":
+[
+
+]
+}
+,{"type":"table","name":"migrations","database":"qrcode","data":
+[
+{"id":"1","migration":"2014_10_12_000000_create_users_table","batch":"1"},
+{"id":"2","migration":"2014_10_12_100000_create_password_resets_table","batch":"1"},
+{"id":"3","migration":"2019_08_19_000000_create_failed_jobs_table","batch":"1"},
+{"id":"4","migration":"2019_12_14_000001_create_personal_access_tokens_table","batch":"1"},
+{"id":"5","migration":"2014_10_12_000000_create_qrcode_table","batch":"2"},
+{"id":"6","migration":"2024_06_12_181339_create_qr_code_logs_table","batch":"3"},
+{"id":"7","migration":"2024_06_12_181915_create_qr_code_logs_table","batch":"4"},
+{"id":"8","migration":"2024_06_13_234704_create_qr_code_logs_table","batch":"5"},
+{"id":"9","migration":"2024_06_14_145034_create_users_table","batch":"6"},
+{"id":"10","migration":"2024_06_14_151318_create_users_table","batch":"7"},
+{"id":"11","migration":"2024_06_14_152733_add_phone_to_users_table","batch":"8"},
+{"id":"12","migration":"2024_06_14_153200_create_users_table","batch":"9"},
+{"id":"13","migration":"2024_06_14_153250_add_phone_to_users_table","batch":"10"},
+{"id":"14","migration":"2024_06_14_154601_create_users_table","batch":"11"},
+{"id":"15","migration":"2024_06_14_154751_add_phone_to_users_table","batch":"12"},
+{"id":"16","migration":"2024_06_14_181928_create_contacts_table","batch":"13"},
+{"id":"17","migration":"2024_06_14_191424_create_orders_table","batch":"14"},
+{"id":"18","migration":"2024_06_17_113525_create_qr_code_logs_table","batch":"15"},
+{"id":"19","migration":"2024_06_17_162102_create_form_data_table","batch":"16"},
+{"id":"20","migration":"2024_06_19_162011_add_phone_to_users_table","batch":"17"},
+{"id":"21","migration":"2024_06_19_165838_add_phone_to_users_table","batch":"18"},
+{"id":"22","migration":"2024_06_19_172836_add_phone_to_users_table","batch":"19"},
+{"id":"23","migration":"2024_06_19_182744_create_orders_table","batch":"20"},
+{"id":"24","migration":"2024_06_19_184740_create_orders_table","batch":"21"},
+{"id":"25","migration":"2024_06_19_185816_create_orders_table","batch":"22"},
+{"id":"26","migration":"2024_06_19_190754_create_qr_code_logs_table","batch":"22"},
+{"id":"27","migration":"2024_06_19_201258_create_orders_table","batch":"23"}
+]
+}
+,{"type":"table","name":"orders","database":"qrcode","data":
+[
+{"id":"5","name":"user","phone":"01000000000","email":"user2@gmail.com","text":"test13","user_id":"1","qrcode_id":null,"created_at":"2024-06-21 14:41:29","updated_at":"2024-06-21 14:41:29"}
+]
+}
+,{"type":"table","name":"password_resets","database":"qrcode","data":
+[
+
+]
+}
+,{"type":"table","name":"personal_access_tokens","database":"qrcode","data":
+[
+{"id":"1","tokenable_type":"App\\Models\\User","tokenable_id":"1","name":"API Token","token":"be75849286457612c64120a2043ea6f69edf05d11381a8d8ad86e5c064763238","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 16:15:40","updated_at":"2024-06-11 16:15:40"},
+{"id":"2","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"99a75aa62772b7eb2e43ddef209a06154eef0313b8cfc63e48f447e1c1c375ba","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 16:35:55","updated_at":"2024-06-11 16:35:55"},
+{"id":"3","tokenable_type":"App\\Models\\User","tokenable_id":"3","name":"API Token","token":"1edcd2d5a96d1c0a35c326093646160fa306ccb7d7573e94f9ff4b38cb206472","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 17:47:23","updated_at":"2024-06-11 17:47:23"},
+{"id":"4","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"8dfb8079c39ada7d65344dea831b236e869525c5f73648061282734f62bec523","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:27:56","updated_at":"2024-06-11 18:27:56"},
+{"id":"5","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"117ceef3ecefa9ceb18ecb82ac64368cc4a1bda3f075bd7fda2698fd13f435f6","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:29:37","updated_at":"2024-06-11 18:29:37"},
+{"id":"6","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"b53c8c2e6c996ac627bf7bbe8b12c1b36c707c2e84c60c8eb45e981a900c66b3","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:33:06","updated_at":"2024-06-11 18:33:06"},
+{"id":"7","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"2b02b7a7871b1788654db5c8ca0be9f0d90c6a0475b54dd18f7ab860fe2c333a","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:33:40","updated_at":"2024-06-11 18:33:40"},
+{"id":"8","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"e1c541e859d89b0c0db0fbac19a86ef117c859d2cbd4597b9be763dc7c738a55","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:34:20","updated_at":"2024-06-11 18:34:20"},
+{"id":"9","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"e0b1c3b4fe8a38aededcdfa86e9aa75ea18039f534b46f6ee14f49cc46dab3be","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:43:50","updated_at":"2024-06-11 18:43:50"},
+{"id":"10","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"3fa4f5f3ec978846908cfcbfa01543b9070f9c46afe8446e1a2e2c2a947eb5b3","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 18:44:15","updated_at":"2024-06-11 18:44:15"},
+{"id":"11","tokenable_type":"App\\Models\\User","tokenable_id":"4","name":"API Token","token":"0e90ac5db90ea667036282f5747a073baa075b85f738c331bcc6f2eebe0ec52f","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 19:28:50","updated_at":"2024-06-11 19:28:50"},
+{"id":"12","tokenable_type":"App\\Models\\User","tokenable_id":"4","name":"API Token","token":"9ea8965c552b5907491b39a36578f7d9e8e4717d9293aec4257157edec9c5a6c","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 19:29:18","updated_at":"2024-06-11 19:29:18"},
+{"id":"13","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"db8e428f0572871725bac8f82905274e6ea4f2452f6b1d06e467e8cabe68e058","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 19:39:12","updated_at":"2024-06-11 19:39:12"},
+{"id":"15","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"ad7a64ffc87c8f27bb48aabec206cb81da15b88c9833b6d1f8e146520afd5e5d","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-11 23:25:12","updated_at":"2024-06-11 23:25:12"},
+{"id":"17","tokenable_type":"App\\Models\\User","tokenable_id":"1","name":"API Token","token":"46bd008a093f128ac3ac8f65ebbe94961f5d87c1b92d7dd5b1e1d1afbd1bc794","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-14 15:59:23","updated_at":"2024-06-14 15:59:23"},
+{"id":"18","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"0c4564c64cd6a6085e39a9878754a49b821bce83e46acfd25990682ebea161ea","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-14 15:59:36","updated_at":"2024-06-14 15:59:36"},
+{"id":"20","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"c4c0c73edc2c5459fa9200360a490df00eff8c5f6736a993853768e6141486de","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-17 11:41:15","updated_at":"2024-06-17 11:41:15"},
+{"id":"21","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"0007f7da0e4de60cd40e0c73826ff4896139e959828c50f65d35802320e372ae","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-17 14:41:10","updated_at":"2024-06-17 14:41:10"},
+{"id":"22","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"1b7bdc0c2e9a59aab5671b06edc19b116363201df67eb74b2ec475b5df44456f","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-17 14:50:03","updated_at":"2024-06-17 14:50:03"},
+{"id":"23","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"975e256fcbd5068018968d2a1d69562f025667395997181ec7b015b46bbe2b20","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-17 15:34:32","updated_at":"2024-06-17 15:34:32"},
+{"id":"24","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"b63d7d0b8f23053d0350ebb37d69b97cf061ac9828659cbd06c7fa9c4a17cb0b","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-17 15:38:11","updated_at":"2024-06-17 15:38:11"},
+{"id":"25","tokenable_type":"App\\Models\\User","tokenable_id":"6","name":"API Token","token":"42693bcbf2cb66cca2768762796f35cd57921278b2d6d2dfc2e49beeeacf012f","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-18 20:13:03","updated_at":"2024-06-18 20:13:03"},
+{"id":"26","tokenable_type":"App\\Models\\User","tokenable_id":"7","name":"API Token","token":"814f6dbc144651256363d0ebdfd7c5c98d1f5e73948680f0d2631c00990566a3","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-18 20:15:27","updated_at":"2024-06-18 20:15:27"},
+{"id":"27","tokenable_type":"App\\Models\\User","tokenable_id":"8","name":"API Token","token":"b53e389f4770519e3bb96d31f24f1fe0a075b98e7c6136ccf4118f24ae38d726","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-18 20:15:46","updated_at":"2024-06-18 20:15:46"},
+{"id":"28","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"0b339511385eb44e33cae8dfeacd8484e2a54f624732d2e627e9ee7ae6c16491","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 14:28:02","updated_at":"2024-06-19 14:28:02"},
+{"id":"29","tokenable_type":"App\\Models\\User","tokenable_id":"9","name":"API Token","token":"1f7a423ee5afab45c4c2369fcc4ea8340e52f3a252c1e0bed853914dab10e6cd","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 15:00:12","updated_at":"2024-06-19 15:00:12"},
+{"id":"31","tokenable_type":"App\\Models\\User","tokenable_id":"10","name":"API Token","token":"5d775a08ed5f53057c5a43318b5326b164d6cf624f0a4dd2a6e6fca1b4d81ec6","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 16:55:22","updated_at":"2024-06-19 16:55:22"},
+{"id":"32","tokenable_type":"App\\Models\\User","tokenable_id":"11","name":"API Token","token":"8f7e33b688572415fa14155dfb5f8b4899e17da93c1bf79195bb769864bc1a4c","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 16:59:57","updated_at":"2024-06-19 16:59:57"},
+{"id":"33","tokenable_type":"App\\Models\\User","tokenable_id":"12","name":"API Token","token":"6a2ff77631a319602c148045289d1fe6b6d906948c21af789cc2130636959c74","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 17:00:29","updated_at":"2024-06-19 17:00:29"},
+{"id":"34","tokenable_type":"App\\Models\\User","tokenable_id":"13","name":"API Token","token":"692d2f4359fd818465ae886a4486ab41825805e28c6d8966427e4bd00c726ad7","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 17:33:03","updated_at":"2024-06-19 17:33:03"},
+{"id":"35","tokenable_type":"App\\Models\\User","tokenable_id":"14","name":"API Token","token":"89aaabe6e656cc8f0625e57f96736639dbd25696ac3757b4aaa6dc03c648b8fa","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 17:36:37","updated_at":"2024-06-19 17:36:37"},
+{"id":"36","tokenable_type":"App\\Models\\User","tokenable_id":"1","name":"API Token","token":"7e4e0b0e362e59a3ee6bc5570b928408faf47ad1dbc602b2f147e9d27fa09746","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 17:37:35","updated_at":"2024-06-19 17:37:35"},
+{"id":"37","tokenable_type":"App\\Models\\User","tokenable_id":"2","name":"API Token","token":"0e8f985cd5a04101be370642d044c374a953392f9e05d3e334faaca84cf3f80a","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 17:41:03","updated_at":"2024-06-19 17:41:03"},
+{"id":"38","tokenable_type":"App\\Models\\User","tokenable_id":"1","name":"API Token","token":"b82c1ad228aeed78c6726db7659447f6ce3956ae0f3ca299b213631e7f5c496e","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-19 23:06:52","updated_at":"2024-06-19 23:06:52"},
+{"id":"39","tokenable_type":"App\\Models\\User","tokenable_id":"1","name":"API Token","token":"2fcecc183bab2939cd68f71a39ac8c3be9b51555c8cc14b6da7e7628cb49f18b","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-20 15:38:19","updated_at":"2024-06-20 15:38:19"},
+{"id":"40","tokenable_type":"App\\Models\\User","tokenable_id":"4","name":"API Token","token":"9b6fed8922baadde87b25a71fdc5ffc8552d9ccdc59f3ad96ef4853e5f077a59","abilities":"[\"*\"]","last_used_at":null,"created_at":"2024-06-21 14:36:20","updated_at":"2024-06-21 14:36:20"}
+]
+}
+,{"type":"table","name":"qr_code_logs","database":"qrcode","data":
+[
+{"id":"1","user_id":"1","text":"https:\/\/Qawl-talabak.com","reference":"CHhMVTaszzM","created_at":"2024-06-19 19:10:15","updated_at":"2024-06-19 19:10:15"},
+{"id":"2","user_id":"1","text":"https:\/\/Qawl-talabak.com","reference":"C33ZbRtxcWG","created_at":"2024-06-19 19:31:44","updated_at":"2024-06-19 19:31:44"},
+{"id":"3","user_id":"2","text":"https:\/\/Qawl-talabak.com","reference":"qE0UQmwcVgn","created_at":"2024-06-19 20:17:29","updated_at":"2024-06-19 20:17:29"},
+{"id":"4","user_id":"2","text":"https:\/\/Qawl-talabak.com","reference":"LqYehmTmLr8","created_at":"2024-06-19 22:04:14","updated_at":"2024-06-19 22:04:14"},
+{"id":"6","user_id":"1","text":"https:\/\/Qawl-talabak.com","reference":"ld8Z8qkaQyr","created_at":"2024-06-19 23:05:10","updated_at":"2024-06-19 23:05:10"},
+{"id":"7","user_id":"3","text":"https:\/\/Qawl-talabak.com","reference":"r3iLypCEuY4","created_at":"2024-06-20 15:38:52","updated_at":"2024-06-20 15:38:52"},
+{"id":"9","user_id":"4","text":"https:\/\/Qawl-talabak.com","reference":"ZqlX2bkjE1E","created_at":"2024-06-21 14:45:01","updated_at":"2024-06-21 14:45:01"}
+]
+}
+,{"type":"table","name":"users","database":"qrcode","data":
+[
+{"id":"1","name":"user","email":"user2@gmail.com","email_verified_at":null,"password":"$2y$10$C8MnyrHthfTgkrvec33WC.WYIWJVtg78nWZotNEE2SDODj2J.TSQG","remember_token":null,"created_at":"2024-06-19 17:37:35","updated_at":"2024-06-19 17:37:35","phone":"01000000000","type":"company","logo":"logos\/uBLB4ZnYtEK7UMoS4mt4zCNW3ccY4xpFXpSWGXri.jpg","company_name":"google"},
+{"id":"2","name":"user","email":"user3@gmail.com","email_verified_at":null,"password":"$2y$10$uJ4RVUZyxRpUYpt.CprUDu5Voeq3RfjUsrIq6B7Lmsl.bwe3nw25W","remember_token":null,"created_at":"2024-06-19 17:41:03","updated_at":"2024-06-19 17:41:03","phone":"01000000000","type":"client","logo":null,"company_name":null},
+{"id":"3","name":"Guest","email":"guest@example.com","email_verified_at":null,"password":"$2y$10$HURuiW0CqVDHVwknawmgyOKD1pKdnippmch6z5zk0uUYX.3UsJyd6","remember_token":null,"created_at":"2024-06-19 21:40:13","updated_at":"2024-06-19 21:40:13","phone":null,"type":"Guest","logo":null,"company_name":null},
+{"id":"4","name":"user","email":"user7@gmail.com","email_verified_at":null,"password":"$2y$10$51WT5yUvCdXARvQvM4S9ZujY.otte07ROzbKnyB\/S1Ha5u3KOGWTG","remember_token":null,"created_at":"2024-06-21 14:36:20","updated_at":"2024-06-21 14:36:20","phone":"01000000000","type":"company","logo":"logos\/vpBotWkxsVQIAGtMm7Zvl9QXQCi8okkF2SmvaEC5.jpg","company_name":"google"}
+]
+}
+]
