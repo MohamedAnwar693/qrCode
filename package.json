@@ -1,5 +1,10 @@
 {
     "private": true,
+     "authors": [
+        {
+          "name": "Mohamed Anwar",
+        }
+     ],
     "scripts": {
         "dev": "npm run development",
         "development": "mix",
